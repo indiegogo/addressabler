@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/flipsasser/addressabler"
   s.require_paths = ["lib"]
-  s.required_ruby_version = Gem::Requirement.new("= 1.9.3")
+  s.required_ruby_version = Gem::Requirement.new(">= 1.9.3")
   s.rubygems_version = "2.0.3"
   s.summary = "An Addressable::URI extension adding support for TLDs and query part editing"
   s.test_files = ["spec/addressable", "spec/addressable/idna_spec.rb", "spec/addressable/net_http_compat_spec.rb", "spec/addressable/template_spec.rb", "spec/addressable/uri_spec.rb", "spec/addressabler", "spec/addressabler/uri_deprecation_spec.rb", "spec/addressabler/uri_spec.rb", "spec/addressabler_spec.rb", "spec/spec_helper.rb"]
